@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ht_create_sub_comp_img" xml:space="preserve">
+    <value>&lt;div 
+     class=""
+     id="create_sub_comp_img_ni"
+&gt;
+    &lt;i&gt;Not Identified
+    &lt;/i&gt;
+&lt;/div&gt;
+&lt;img
+     class="create_sub_comp_img_content"
+     src=""
+     id="create_sub_comp_img_content"
+/&gt;</value>
+  </data>
+  <data name="ht_edit_comp" xml:space="preserve">
+    <value>&lt;u&gt;Component&lt;/u&gt;&lt;br&gt;&lt;br&gt;
+&lt;div class="edit_comp_img"&gt;
+    &lt;img class='edit_comp_img_'
+          id = 'edit_comp_img'
+         src='//src//' /&gt;
+    //edit img//
+&lt;/div&gt;
+&lt;div class="edit_comp_content"&gt;
+    //content//
+&lt;/div&gt;
+&lt;div class="cls"&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_edit_comps" xml:space="preserve">
+    <value>&lt;div class="tree"
+     id="tree"&gt;
+    &lt;div class="tree_topic"&gt;
+        &lt;div class="l"&gt;
+            Components
+        &lt;/div&gt;
+
+        &lt;div class="create_comp"
+             onclick="create_sub_comp(0);"&gt;
+            &lt;img src="../imgs/get.png"
+                 class="create_comp_img" /&gt;
+            New
+        &lt;/div&gt;
+        &lt;div class="cls"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="filter"
+         id="filter"
+         cur=""&gt;
+        &lt;input type="text"
+               placeholder="Filter"
+               id="txt_filter"
+               class="txt_filter"
+               onkeyup="filter();" /&gt;
+    &lt;/div&gt;
+    &lt;div class="search"
+         id="search"
+         cur=""&gt;
+        &lt;input type="text"
+               placeholder="Search"
+               id="txt_search"
+               class="txt_search"               
+         /&gt;
+        &lt;img src="../imgs/search.png"
+             title="search"
+             class="search_img"
+             onclick="search();"
+        /&gt;
+    &lt;/div&gt;    
+    &lt;div class="sub_comps_0"
+         id="sub_comps_0"&gt;
+    &lt;/div&gt;
+    &lt;div class="pgt"
+         id="pgt"
+         cur="1"
+         mx="0"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="comp_content"
+     id="comp_content"&gt;
+&lt;/div&gt;
+&lt;div class="cls"&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_edit_img_choose" xml:space="preserve">
+    <value>&lt;div class="edit_comp_img_choose"
+     onclick="edit_comp_img(//comp//);"
+&gt;
+    Edit Image
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_fi" xml:space="preserve">
+    <value>&lt;form id="file_form"
+      action=""&gt;
+    Choose Your Files:
+    &lt;input type="file" id="file" name="file" /&gt;
+    &lt;input id="btUpload" type="button" value="Upload File" /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/form&gt;
+&lt;script&gt;
+    $(document).ready(function () {
+        $("#btUpload").click(function () {
+
+            var data =
+                new FormData($("form")[0]);
+
+            $.ajax({
+                type: "POST",
+                url: "/api/file/",
+                enctype: 'multipart/form-data',
+                contentType: false,
+                processData: false,
+                cache: false,
+                data: data,
+                success: function (data, textStatus, xhr) {
+                    //method//(data//prms//);
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(textStatus + ': ' + errorThrown);
+                }
+            });
+        });
+    });
+&lt;/script&gt;</value>
+  </data>
+  <data name="ht_pgt" xml:space="preserve">
+    <value>&lt;br&gt;
+&lt;div class="l"&gt;
+
+    &lt;img id="pgt_prev"
+         onclick="pgt_prev();"
+         style="cursor: pointer;
+                 margin-right: 7px;"
+         src="../imgs/scroll_prev.png"
+         title="Previous Page" /&gt;
+
+    &lt;img id="pgt_next"
+         onclick="pgt_next();"
+         style="cursor: pointer;
+                 margin-right: 7px;"
+         src="../imgs/scroll_next.png"
+         title="Next Page" /&gt;
+&lt;/div&gt;
+&lt;div class="pgt_choose"
+     id="pgt_choose" ;
+     onclick="pgt_choose();"
+     title="Choose Page"&gt;
+    &lt;div class="l"&gt;
+        Pg:
+    &lt;/div&gt;
+
+    &lt;div class="l"
+         id="pgt_cur"&gt;
+        1
+    &lt;/div&gt;
+    &lt;div class="cls"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cls"&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_rec" xml:space="preserve">
+    <value>&lt;div class="rec_prim //cls//"
+    id="//id//"
+    onclick="//method//"
+&gt;
+    //nomencl//
+    &lt;div class="rec_sub"
+         id="//id//_"&gt;
+        //summary//
+    &lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_srs" xml:space="preserve">
+    <value>&lt;div
+     class="srs"
+     onclick="//method//(//prms//);"
+&gt;
+    //content//
+&lt;/div&gt;</value>
+  </data>
+  <data name="ht_t_bo" xml:space="preserve">
+    <value>&lt;input type="text"
+       id="//id//"
+       maxlength="//c_mx//"
+       value="//cur//" /&gt;
+
+&lt;br /&gt;
+
+    Max: //c_mx//</value>
+  </data>
+  <data name="logon" xml:space="preserve">
+    <value>Provide proper credentials to Logon
+&lt;br /&gt;
+&lt;div class="logon"
+     id="logon"&gt;
+    &lt;div id="log_issues"&gt;
+    &lt;/div&gt;
+&lt;div
+        class = "r"
+&gt;
+    Logon:
+    &lt;input type="text"
+           class="logon_txt"
+           id="logon_txt" /&gt;
+&lt;/div&gt;
+&lt;div class="cls"
+  &gt;
+
+&lt;/div&gt;
+
+        &lt;br /&gt;
+    &lt;div class="r"&gt;
+        Passcode:
+        &lt;input type="password"
+               class="logon_txt"
+               id="pcode_txt" /&gt;
+    &lt;/div&gt;
+    &lt;div class="cls"&gt;
+    &lt;/div&gt;
+        &lt;br /&gt;
+        &lt;div class="logon_verify"
+             onclick="logon2();"&gt;
+            Logon
+        &lt;/div&gt;
+   &lt;/div&gt;</value>
+  </data>
+</root>
