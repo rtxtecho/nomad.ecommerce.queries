@@ -39,7 +39,7 @@ namespace nomad_ecommerce_query.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("mvc.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("nomad_ecommerce_query.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,226 +61,23 @@ namespace nomad_ecommerce_query.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;div 
-        ///     class=&quot;&quot;
-        ///     id=&quot;create_sub_comp_img_ni&quot;
-        ///&gt;
-        ///    &lt;i&gt;Not Identified
-        ///    &lt;/i&gt;
-        ///&lt;/div&gt;
-        ///&lt;img
-        ///     class=&quot;create_sub_comp_img_content&quot;
-        ///     src=&quot;&quot;
-        ///     id=&quot;create_sub_comp_img_content&quot;
-        ////&gt;.
-        /// </summary>
-        internal static string ht_create_sub_comp_img {
-            get {
-                return ResourceManager.GetString("ht_create_sub_comp_img", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;u&gt;Component&lt;/u&gt;&lt;br&gt;&lt;br&gt;
-        ///&lt;div class=&quot;edit_comp_img&quot;&gt;
-        ///    &lt;img class=&apos;edit_comp_img_&apos;
-        ///          id = &apos;edit_comp_img&apos;
-        ///         src=&apos;//src//&apos; /&gt;
-        ///    //edit img//
-        ///&lt;/div&gt;
-        ///&lt;div class=&quot;edit_comp_content&quot;&gt;
-        ///    //content//
-        ///&lt;/div&gt;
-        ///&lt;div class=&quot;cls&quot;&gt;
-        ///&lt;/div&gt;.
-        /// </summary>
-        internal static string ht_edit_comp {
-            get {
-                return ResourceManager.GetString("ht_edit_comp", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;div class=&quot;tree&quot;
-        ///     id=&quot;tree&quot;&gt;
-        ///    &lt;div class=&quot;tree_topic&quot;&gt;
-        ///        &lt;div class=&quot;l&quot;&gt;
-        ///            Components
-        ///        &lt;/div&gt;
+        ///   Looks up a localized string similar to select 
+        ///distinct(rel_order_comp.cost),
+        ///component.component, 
+        ///count(rel_order_comp.ID) c
+        ///       
+        ///from rel_order_comp
         ///
-        ///        &lt;div class=&quot;create_comp&quot;
-        ///             onclick=&quot;create_sub_comp(0);&quot;&gt;
-        ///            &lt;img src=&quot;../imgs/get.png&quot;
-        ///                 class=&quot;create_comp_img&quot; /&gt;
-        ///            New
-        ///        &lt;/div&gt;
-        ///        &lt;div class=&quot;cls&quot;&gt;
-        ///        &lt;/div&gt;
-        ///    &lt;/div&gt;
+        ///join component
+        ///on component.ID = rel_order_comp.comp
         ///
-        ///    &lt;div class=&quot;filter&quot;
-        ///         id=&quot;filter&quot;
-        ///         cur=&quot;&quot;&gt;
-        ///        &lt;input type=&quot;text&quot;
-        ///               placeholder=&quot;Filt [rest of string was truncated]&quot;;.
+        ///group by rel_order_comp.cost, component.component
+        ///
+        ///order by component.component.
         /// </summary>
-        internal static string ht_edit_comps {
+        internal static string query_unique_price {
             get {
-                return ResourceManager.GetString("ht_edit_comps", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;div class=&quot;edit_comp_img_choose&quot;
-        ///     onclick=&quot;edit_comp_img(//comp//);&quot;
-        ///&gt;
-        ///    Edit Image
-        ///&lt;/div&gt;.
-        /// </summary>
-        internal static string ht_edit_img_choose {
-            get {
-                return ResourceManager.GetString("ht_edit_img_choose", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;form id=&quot;file_form&quot;
-        ///      action=&quot;&quot;&gt;
-        ///    Choose Your Files:
-        ///    &lt;input type=&quot;file&quot; id=&quot;file&quot; name=&quot;file&quot; /&gt;
-        ///    &lt;input id=&quot;btUpload&quot; type=&quot;button&quot; value=&quot;Upload File&quot; /&gt;
-        ///    &lt;p&gt;&lt;/p&gt;
-        ///&lt;/form&gt;
-        ///&lt;script&gt;
-        ///    $(document).ready(function () {
-        ///        $(&quot;#btUpload&quot;).click(function () {
-        ///
-        ///            var data =
-        ///                new FormData($(&quot;form&quot;)[0]);
-        ///
-        ///            $.ajax({
-        ///                type: &quot;POST&quot;,
-        ///                url: &quot;/api/file/&quot;,
-        ///                enctype: &apos;multipart/form-data&apos;,
-        ///             [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string ht_fi {
-            get {
-                return ResourceManager.GetString("ht_fi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;br&gt;
-        ///&lt;div class=&quot;l&quot;&gt;
-        ///
-        ///    &lt;img id=&quot;pgt_prev&quot;
-        ///         onclick=&quot;pgt_prev();&quot;
-        ///         style=&quot;cursor: pointer;
-        ///                 margin-right: 7px;&quot;
-        ///         src=&quot;../imgs/scroll_prev.png&quot;
-        ///         title=&quot;Previous Page&quot; /&gt;
-        ///
-        ///    &lt;img id=&quot;pgt_next&quot;
-        ///         onclick=&quot;pgt_next();&quot;
-        ///         style=&quot;cursor: pointer;
-        ///                 margin-right: 7px;&quot;
-        ///         src=&quot;../imgs/scroll_next.png&quot;
-        ///         title=&quot;Next Page&quot; /&gt;
-        ///&lt;/div&gt;
-        ///&lt;div class=&quot;pgt_choose&quot;
-        ///     id=&quot;pgt_choose&quot; ;
-        ///     onclick=&quot;pgt_choose() [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string ht_pgt {
-            get {
-                return ResourceManager.GetString("ht_pgt", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;div class=&quot;rec_prim //cls//&quot;
-        ///    id=&quot;//id//&quot;
-        ///    onclick=&quot;//method//&quot;
-        ///&gt;
-        ///    //nomencl//
-        ///    &lt;div class=&quot;rec_sub&quot;
-        ///         id=&quot;//id//_&quot;&gt;
-        ///        //summary//
-        ///    &lt;/div&gt;
-        ///&lt;/div&gt;.
-        /// </summary>
-        internal static string ht_rec {
-            get {
-                return ResourceManager.GetString("ht_rec", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;div
-        ///     class=&quot;srs&quot;
-        ///     onclick=&quot;//method//(//prms//);&quot;
-        ///&gt;
-        ///    //content//
-        ///&lt;/div&gt;.
-        /// </summary>
-        internal static string ht_srs {
-            get {
-                return ResourceManager.GetString("ht_srs", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;input type=&quot;text&quot;
-        ///       id=&quot;//id//&quot;
-        ///       maxlength=&quot;//c_mx//&quot;
-        ///       value=&quot;//cur//&quot; /&gt;
-        ///
-        ///&lt;br /&gt;
-        ///
-        ///    Max: //c_mx//.
-        /// </summary>
-        internal static string ht_t_bo {
-            get {
-                return ResourceManager.GetString("ht_t_bo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Provide proper credentials to Logon
-        ///&lt;br /&gt;
-        ///&lt;div class=&quot;logon&quot;
-        ///     id=&quot;logon&quot;&gt;
-        ///    &lt;div id=&quot;log_issues&quot;&gt;
-        ///    &lt;/div&gt;
-        ///&lt;div
-        ///        class = &quot;r&quot;
-        ///&gt;
-        ///    Logon:
-        ///    &lt;input type=&quot;text&quot;
-        ///           class=&quot;logon_txt&quot;
-        ///           id=&quot;logon_txt&quot; /&gt;
-        ///&lt;/div&gt;
-        ///&lt;div class=&quot;cls&quot;
-        ///  &gt;
-        ///
-        ///&lt;/div&gt;
-        ///
-        ///        &lt;br /&gt;
-        ///    &lt;div class=&quot;r&quot;&gt;
-        ///        Passcode:
-        ///        &lt;input type=&quot;password&quot;
-        ///               class=&quot;logon_txt&quot;
-        ///               id=&quot;pcode_txt&quot; /&gt;
-        ///    &lt;/div&gt;
-        ///    &lt;div class=&quot;cls&quot;&gt;
-        ///    &lt;/div&gt;
-        ///        &lt;br /&gt;
-        ///   [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string logon {
-            get {
-                return ResourceManager.GetString("logon", resourceCulture);
+                return ResourceManager.GetString("query_unique_price", resourceCulture);
             }
         }
     }

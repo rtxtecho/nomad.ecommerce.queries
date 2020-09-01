@@ -62,6 +62,24 @@ namespace nomad_ecommerce_query.business
             }
         }
 
+        public static long
+                  get_n_l(SqlDataReader SDR, string column
+                         )
+        {
+            try
+            {
+                string content = SDR[column].ToString();
+                long
+                 i = long.Parse(content);
+
+                return i;
+            }
+            catch
+            {
+                return 0;
+            }
+        }
+
         public static byte[] get_byte
             (SqlDataReader SDR, string column
             )
